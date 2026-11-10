@@ -1,5 +1,5 @@
 --============================================================
--- Rima: a pure Lua 5.1 AST interpreter.
+-- Rima v1.0.0: a pure Lua 5.1 AST interpreter.
 --============================================================
 -- Copyright (C) 2026 Ex
 -- SPDX-License-Identifier: MPL-2.0
