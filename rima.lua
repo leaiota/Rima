@@ -2243,7 +2243,9 @@ evalMany = function(node, frame)
     end
 
     if node.kind == "MethodCall" then
-        return packed(callMethod(node, frame, { target = evalExpression(node.base, frame) }))
+        return packed(callMethod(node, frame, {
+            target = evalExpression(node.base, frame),
+        }))
     end
 
     return packed(evalExpression(node.callee, frame)(unpackPacked(evalExpressionList(node.arguments, frame))))
