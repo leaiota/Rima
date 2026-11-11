@@ -1,6 +1,8 @@
-# 更新日志
+# Changelog
 
-## v1.0.0 - 2026-11-10
+简体中文: [CHANGELOG_zh.md](CHANGELOG_zh.md).
 
-- 面向 PUC Lua 5.1.5 宿主的单文件 AST 解释器，支持源码解析、AST 复用和脚本执行。
-- README 中有列出宿主 API 依赖、脚本环境用法和兼容性边界。
+## v1.0.0 - 2026-11-11
+
+- A single-file AST interpreter for PUC Lua 5.1.5 hosts, with support for parsing source code, reusing ASTs, and running scripts.
+- The [README](README.md) documents host API dependencies, script environments, and compatibility limits.
